@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="392.937" height="128" viewBox="0 0 392.937 128">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="392.937" height="128" fill="none"/>
+    </clipPath>
+    <filter id="VERONICA" x="1.413" y="0" width="389" height="128" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Repeat_Grid_8" data-name="Repeat Grid 8" clip-path="url(#clip-path)">
+    <g id="Group_5" data-name="Group 5" transform="translate(-201 -1195.757)">
+      <g transform="matrix(1, 0, 0, 1, 201, 1195.76)" filter="url(#VERONICA)">
+        <text id="VERONICA-2" data-name="VERONICA" stroke-linecap="round" fill="#7b6d24" stroke="#7b6d24" transform="translate(17.41 74)" stroke-linejoin="bevel" stroke-width="1" font-size="70" font-family="AvenirNext-Regular, Avenir Next"><tspan x="0" y="0">VERONICA</tspan></text>
+      </g>
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(201 1199)" fill="none" stroke="#7b6d24" stroke-width="6">
+        <rect width="392.937" height="97.666" stroke="none"/>
+        <rect x="3" y="3" width="386.937" height="91.666" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

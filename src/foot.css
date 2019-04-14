@@ -1,0 +1,19 @@
+.page-footer {
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+  background-color:#7B6D24;
+}
+a{
+  font-size: 3em;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+}
+.vg{
+  height: 50px;
+}
+/* .container{
+
+} */

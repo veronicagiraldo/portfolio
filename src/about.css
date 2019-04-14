@@ -1,0 +1,14 @@
+.aboutSection{
+background-color: #DED675;
+color: #838383;
+}
+.content{
+  background-color: #DED675;
+  color: #838383;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+.v{
+  padding-top: 10px;
+  /* border-radius: 5%; */
+}
