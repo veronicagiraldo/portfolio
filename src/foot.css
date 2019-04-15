@@ -1,7 +1,7 @@
 .page-footer {
   text-align: center;
   padding-top: 20px;
-  color: #fff;
+  color:#e0e0e0;
   background-color:#7B6D24;
 }
 a{
@@ -13,6 +13,9 @@ a{
 }
 .vg{
   height: 50px;
+}
+.fab{
+  font-size: 24px;
 }
 /* .container{
 

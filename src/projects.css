@@ -1,7 +1,21 @@
-.pic{
-  height: 100px;
-  width: 100px;
-}
+/* .pic{
+  height: 200px;
+  width: 200px;
+} */
 a {
   font-size: 10px;
+}
+.projects{
+  text-align: center;
+  background-color: #DED675;
+  color: #424242;
+  padding: 20px;
+  font-size: 20px;
+}
+.carousel{
+  height: 300px;
+  width: 100%;
+}
+.carousel-item>img {
+  height: 200px;
 }

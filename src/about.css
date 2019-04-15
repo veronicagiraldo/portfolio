@@ -4,9 +4,10 @@ color: #838383;
 }
 .content{
   background-color: #DED675;
-  color: #838383;
+  color: #424242;
   padding: 20px;
   padding-bottom: 20px;
+  font-size: 20px;
 }
 .v{
   padding-top: 10px;

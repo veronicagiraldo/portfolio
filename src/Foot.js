@@ -14,7 +14,7 @@ const Foot = () => {
      <footer class="page-footer">
      <div class="container">
        <div class="row">
-         <div class="col l6 s12">
+         <div class="col s12">
            {/* <h5 class="white-text">Contact Information</h5> */}
            <img class="vg" src={vg2} alt="vg"></img>
            {/* <p class="">Veronica Giraldo</p> */}
@@ -25,8 +25,8 @@ const Foot = () => {
          <div class="col s12">
            {/* <h5 class="white-text">Links</h5> */}
            <ul>
-             <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/veronicagiraldo"><i class="fab fa-linkedin"></i></a></li>
-             <li><a class="grey-text text-lighten-3" href="https://github.com/veronicagiraldo"><i class="fab fa-github"></i></a></li>
+             <li><a class="grey-text text-lighten-2" href="https://www.linkedin.com/in/veronicagiraldo"><i class="fab fa-linkedin"></i></a></li>
+             <li><a class="grey-text text-lighten-2" href="https://github.com/veronicagiraldo"><i class="fab fa-github"></i></a></li>
              {/* <img class="vg" src={vg2} alt="vg"></img> */}
              {/* <li><img class="logo" src={logo} alt="logo"></img></li> */}
              {/* <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li> */}
