@@ -1,6 +1,11 @@
 *{
-  font-family: "roboto";
+  /* font-family: "roboto"; */
   margin: 0;
+  /* background-color:#7B6D24; */
+}
+body, html {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 /* body {
   display: flex;
@@ -11,6 +16,4 @@
 main {
   flex: 1 0 auto;
 } */
-.homeTitle{
-  text-align: center;
-}
+

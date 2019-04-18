@@ -20,10 +20,10 @@ const Nav = () => {
       // </Navbar>
       <Navbar class="nav-wrapper">
             
-            <img class="vg center" src={vg2} alt="vg"></img>
+            <img class="vg" src={vg2} alt="vg" ></img>
             {/* <a href="#"img src="portfolio/src/images/vg2.svg" class="brand-logo center">Logo</a> */}
             {/* <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> */}
-            <ul class="center">
+            <ul class="menu">
             {/* <ul id="nav-mobile" class="left hide-on-med-and-down"> */}
              <li> <Link to="/">Home</Link></li>
              <li><Link to="/projects">Projects</Link></li>

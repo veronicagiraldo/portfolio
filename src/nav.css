@@ -1,9 +1,16 @@
 /* .nav{
   background-color: #7B6D24;
 } */
+nav .nav-wrapper {
+  position: relative;
+  height: 100%;
+  margin: 10px;
+}
+
 nav {
   color: #fff;
-  background-color: #7B6D23;
+  /* background-color: #7B6D23; */
+  background-color: #DED675;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -11,7 +18,13 @@ nav {
 ul{
   /* background-color:#E5E0E0; */
 }
+li a {
+  display: flex;
+  justify-content: center;
+}
 li a:hover {
-  background-color: #555;
-  color:#7B6D23
+  /* background-color: #555; */
+  background-color: #707070;
+  /* color:#7B6D23; */
+  letter-spacing: 2px;
 }

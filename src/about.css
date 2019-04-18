@@ -1,15 +1,18 @@
-.aboutSection{
+/* .aboutSection{
 background-color: #DED675;
 color: #838383;
-}
+} */
 .content{
   background-color: #DED675;
   color: #424242;
   padding: 20px;
   padding-bottom: 20px;
-  font-size: 20px;
+  /* font-size: 3.5em; */
 }
 .v{
   padding-top: 10px;
   /* border-radius: 5%; */
+}
+.aboutTitle{
+  text-align: center;
 }
