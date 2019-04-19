@@ -10,14 +10,6 @@ import {Navbar} from 'react-materialize';
 const Nav = () => {
 
     return(
-      // <Navbar brand={"/images/vg2.svg"} alignLinks="right">
-      //     <ul>
-      //       <li><Link to="/home">HOME</Link></li>
-      //       <li><Link to="/projects">PROJECTS</Link></li>
-      //       <li><Link to="/resume">RESUME</Link></li>
-      //       <li><Link to="/about">ABOUT</Link></li>
-      //     </ul>
-      // </Navbar>
       <Navbar class="nav-wrapper">
             
             <img class="vg" src={vg2} alt="vg" ></img>
@@ -27,8 +19,10 @@ const Nav = () => {
             {/* <ul id="nav-mobile" class="left hide-on-med-and-down"> */}
              <li> <Link to="/">Home</Link></li>
              <li><Link to="/projects">Projects</Link></li>
+             <li><Link to="/about">About Me</Link></li>
              <li><Link to="/resume">Resume</Link></li>
-              <li><Link to="/about">About Me</Link></li>
+             <li><a class="right-align" href="https://www.linkedin.com/in/veronicagiraldo/"><i class="fab fa-linkedin"></i></a></li>
+             <li><a class="right-align" href="https://github.com/veronicagiraldo"><i class="fab fa-github"></i></a></li>
             </ul>
 
     </Navbar>

@@ -54,23 +54,26 @@ body, html {
   /* transition-timing-function: ease-in; */
   /* transition-duration: 0.4s; */
   transition: 1s;
-  
   animation: bounceIn 2s ease-in;
   /* animation: mymove 5s; */
 
 }
-
-
 .name:hover{
   /* width: 300px; */
   /* height: 300px; */
   /* -webkit-transform: rotate(360deg);  */
   transform: rotate(360deg);
- 
+
 }
 .linkProjects{
   color: #7B6D23;
   font-size: 18px;
   transition: 1s;
   animation: bounceIn 1s ease-in-out;
+}
+.fab {
+ /* height: 20px; */
+ color: #7B6D23;
+ font-size:20px;
+ /* line-height: 20px; */
 }

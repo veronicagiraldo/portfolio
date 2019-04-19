@@ -5,17 +5,55 @@
 a {
   font-size: 10px;
 }
-.projects{
-  text-align: center;
-  background-color: #DED675;
-  color: #424242;
-  padding: 20px;
-  font-size: 20px;
-}
-.carousel{
-  height: 300px;
+/* .blur{
   width: 100%;
 }
-/* .carousel-item>img {
-  height: 200px;
+.responsive-img{
+
 } */
+
+.header{
+  animation: bounceIn 2s ease-in;
+}
+.projectTitle{
+  position: relative;
+  background-image: url('./images/project.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  animation: bounceIn 2s ease-in;
+  line-height: 90%;
+  margin-top: 10px;
+  color: white;
+ 
+}
+.projects{
+  text-align: center;
+  /* background-color: #DED675; */
+  color: #424242;
+  /* padding: 20px; */
+  /* font-size: 20px; */
+}
+.card-content p{
+  line-height: 3em;
+  font-size: 20px;
+}
+.card-action{
+  animation: bounceIn 2s ease-in;
+}
+.card-action:hover{
+  transition: 3s;
+}
+.card-horizontal{
+  animation: bounceIn 2s ease-in;
+}
+.skills i{
+  font-size: 30px;
+  
+}
+.skills i:hover{
+  /* animation: bounceIn 2s ease-in; */
+  transform: rotate(360deg)
+}

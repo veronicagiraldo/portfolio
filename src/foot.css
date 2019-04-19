@@ -1,7 +1,9 @@
 .page-footer {
   text-align: center;
   padding-top: 20px;
-  color:#e0e0e0;
+  /* color:#e0e0e0; */
+  color:#616161 ;
+  
   /* background-color:#7B6D24; */
   background-color: #DED675
 }
