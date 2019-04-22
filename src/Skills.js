@@ -1,7 +1,7 @@
 import React from 'react';
 // import js from './'
 // import './skills.css';
-import { Row, Col } from 'materialize-css';
+// import { Row, Col } from 'materialize-css';
 
 
 const Skills = () => {
