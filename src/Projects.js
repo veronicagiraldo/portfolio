@@ -13,17 +13,26 @@ import gardenHome from './images/gardenHome.png';
 // import gardenGreen from './images/gardenGreenhouse.png'
 // import { Card} from 'react-materialize';
 // import computer from './images/computer.jpg';
-import blur from './images/project.jpg';
-
-
+// import blur from './images/project.jpg';
 
 import './projects.css';
+import git from './images/GitHub-Mark-64px.png';
 
 function Projects (){
+
     return(
       <div className="projects">
       <h2 className="responsive-img projectTitle"><i class="responsive-img fas fa-edit"></i>Projects</h2>
-      {/* <img className="responsive-img blur" src={blur} alt="projectpic"/> */}
+     <div class="row">
+      <img className="col s12 m6 l3 skillPic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png" alt="html"/>
+      <img className="col s12 m6 l3 skillPic" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" alt="css"/>
+       <img className="col s12 m6 l3 skillPic" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="node.js"/>
+      <img className="col s12 m6 l3 skillPic" src="https://pluralsight2.imgix.net/paths/images/react-0f6558f88f.png" alt="linkjava"/>
+      <img className="col s12 m6 l3 skillPic" src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png" alt="js"/>
+      <img className="col s12 m6 l3 skillPic" src="http://cdn.onlinewebfonts.com/svg/img_326384.png" alt="github"/>
+      {/* <img className="responsive-img skillPic" src={git} alt="github"/> */}
+     
+      </div>
   <div class="col s12 m7">
     <h3 class="header">Vegan:Eats!</h3>
     <div class="card horizontal">
@@ -78,7 +87,8 @@ function Projects (){
     </div>
   </div>
   </div>
-  
+ 
+
    )
 }
 export default Projects;

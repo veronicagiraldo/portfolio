@@ -1,5 +1,7 @@
 import React from 'react';
-import './skills.css';
+// import js from './'
+// import './skills.css';
+import { Row, Col } from 'materialize-css';
 
 
 const Skills = () => {
@@ -19,6 +21,11 @@ const Skills = () => {
       </div>
   </div>
   </div>
+//   <Row>
+//   <Col s12 m6 className="teal white-text">
+//   6
+// </Col>
+//   </Row>
 
 
   )

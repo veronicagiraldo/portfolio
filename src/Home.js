@@ -12,8 +12,8 @@ const Home =() => {
   return(
     <div className="homeContainer">
     <h1 className="name">Veronica Giraldo</h1>
-    <h3 className="name">Full Stack Developer</h3>
-    <Link className="linkProjects"to="/skills" ><i class="fas fa-sign-in-alt"></i></Link>
+    <h3 className="nameFull">Full Stack Developer</h3>
+    <Link className="linkProjects"to="/projects" ><i class="fas fa-sign-in-alt"></i></Link>
    
     </div>
  

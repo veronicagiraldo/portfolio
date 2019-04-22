@@ -58,10 +58,17 @@ body, html {
   /* animation: mymove 5s; */
 
 }
-.name:hover{
+.nameFull{
+  color: #7B6D23;
+  text-shadow: 2px 2px 4px #DED675;
+  transition: 1s;
+}
+.nameFull:hover{
   /* width: 300px; */
   /* height: 300px; */
   /* -webkit-transform: rotate(360deg);  */
+ 
+  /* animation: bounceIn 2s ease-in; */
   transform: rotate(360deg);
 
 }

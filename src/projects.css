@@ -5,28 +5,29 @@
 a {
   font-size: 10px;
 }
-/* .blur{
-  width: 100%;
-}
-.responsive-img{
-
-} */
-
 .header{
   animation: bounceIn 2s ease-in;
 }
 .projectTitle{
   position: relative;
-  background-image: url('./images/project.jpg');
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-image: url('./images/project.jpg'); */
+  /* height: 100vh; */
+  /* background-image: url('https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png'); */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   text-align: center;
   animation: bounceIn 2s ease-in;
   line-height: 90%;
   margin-top: 10px;
-  color: white;
+  /* color: white; */
+ 
+}
+.row{
+  margin-left: 70px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
  
 }
 .projects{
@@ -35,6 +36,19 @@ a {
   color: #424242;
   /* padding: 20px; */
   /* font-size: 20px; */
+}
+.skillsContainer{
+  position: relative;
+  text-align: center;
+  width: 50%;
+
+}
+.skillsPic{
+  float: right;
+  /* position: absolute; */
+  /* height: 300px; */
+  /* width: 200px; */
+  
 }
 .card-content p{
   line-height: 3em;
