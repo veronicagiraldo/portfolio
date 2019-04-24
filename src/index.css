@@ -1,11 +1,13 @@
 *{
   /* font-family: "roboto"; */
-  margin: 0;
+  margin: 2px;
+  /* margin: 6px; */
   /* background-color:#7B6D24; */
 }
 body, html {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
+  margin-left: 2px;
 }
 /* body {
   display: flex;

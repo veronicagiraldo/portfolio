@@ -11,13 +11,10 @@ nav {
   color: #fff;
   /* background-color: #7B6D23; */
   background-color: #DED675;
-  width: 100%;
+  width: 99.4%;
   height: 56px;
   line-height: 56px;
-  margin: 20px;
-}
-ul{
-  /* background-color:#E5E0E0; */
+  margin: 4px;
 }
 li a {
   color: white;

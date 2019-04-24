@@ -3,7 +3,8 @@
   width: 200px;
 } */
 a {
-  font-size: 10px;
+    font-size: 24px;
+    color: black;
 }
 .header{
   animation: bounceIn 2s ease-in;
@@ -19,7 +20,7 @@ a {
   text-align: center;
   animation: bounceIn 2s ease-in;
   line-height: 90%;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   /* color: white; */
  
 }
@@ -50,12 +51,60 @@ a {
   /* width: 200px; */
   
 }
+.card {
+  position: relative;
+  margin: .5rem 0 1rem 0;
+  background-color: #ded675;
+  /* -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s; */
+  border-radius: 6px;
+  box-shadow: 5px 10px #CDC23D;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #7b6d23; 
+  border: 2px solid black;
+  background-color: #7b6d23;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3%;
+
+}
+.card.horizontal .card-image img {
+border-radius: 2%;
+/* max-width: 100%; */
+width: auto;
+margin-top: 50px;
+/* margin-right: -70px; */
+margin-left: 28px;
+margin-bottom: 43px;
+}
 .card-content p{
   line-height: 3em;
   font-size: 20px;
+  
 }
+.card-content{
+  padding: 32px;
+  margin: 50px;
+  border-radius: 0 0 2px 2px
+}
+
 .card-action{
   animation: bounceIn 2s ease-in;
+  color: #7b6d23;
+  
+}
+.card-action a{
+  color: black;
+  /* background-color: black; */
+  text-transform: uppercase;
 }
 .card-action:hover{
   transition: 3s;
