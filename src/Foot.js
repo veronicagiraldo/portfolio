@@ -15,30 +15,48 @@ const Foot = () => {
      <div class="container">
        <div class="row">
          <div class="col s12">
-           {/* <h5 class="white-text">Contact Information</h5> */}
-           <img class="vg" src={vg2} alt="vg"></img>
+           {/* <h5 class="white-text">Contact Information</h5>
+           
            {/* <p class="">Veronica Giraldo</p> */}
-           <p>vgiraldo.veronica@gmail.com</p>
-           <p>801.634.9893</p>
+           {/* <a href="vgiraldo.veronica@gmail.com" target="_blank">vgiraldo.veronica@gmail.com</a> */}
+           {/* <a href = "mailto: vgiraldo.veronica@gmail.com">Send Email</a> */}
+           
+           {/* <p>801.634.9893</p>
            <p>Salt Lake City, UT</p>
-         </div>
-         <div class="col s12">
-           {/* <h5 class="white-text">Links</h5> */}
+           {/* <p>vgiraldo.veronica@gmail.com</p> */}
+           {/* <a href="mailto:vgiraldo.veronica@gmail.com" target="_blank">vgiraldo.veronica@gmail.com</a>
+           <a class="grey-text darken-2" href="https://www.linkedin.com/in/veronicagiraldo/"target="_blank"><i class="fab fa-linkedin"></i></a>
+           <a class="grey-text darken-2" href="https://github.com/veronicagiraldo" target="_blank"><i class="fab fa-github"></i></a>
+         </div>   */}
+         
            <ul>
-             <li><a class="grey-text darken-2" href="https://www.linkedin.com/in/veronicagiraldo/"><i class="fab fa-linkedin"></i></a></li>
-             <li><a class="grey-text darken-2" href="https://github.com/veronicagiraldo"><i class="fab fa-github"></i></a></li>
+             <li><img class="vg" src={vg2} alt="vg"></img></li>
+             <li><p>801.634.9893</p></li>
+             <li><p>Salt Lake City, UT</p></li>
+             <li><a href="mailto:vgiraldo.veronica@gmail.com" target="_blank">vgiraldo.veronica@gmail.com</a></li>
+             <li><a class="grey-text darken-2" href="https://www.linkedin.com/in/veronicagiraldo/"target="_blank"><i class="fab fa-linkedin"></i></a></li>
+             <li><a class="grey-text darken-2" href="https://github.com/veronicagiraldo" target="_blank"><i class="fab fa-github"></i></a></li>
+           </ul>
+         </div>
+         {/* <div class="col s12"> */}
+           {/* <h5 class="white-text">Links</h5> */}
+           {/* <ul>
+             <li><a class="grey-text darken-2" href="https://www.linkedin.com/in/veronicagiraldo/"target="_blank"><i class="fab fa-linkedin"></i></a></li>
+             <li><a class="grey-text darken-2" href="https://github.com/veronicagiraldo" target="_blank"><i class="fab fa-github"></i></a></li>
+             <li><p>vgiraldo.veronica@gmail.com</p></li>
+              {/* <li><a href="mailto:vgiraldo.veronica@gmail.com" target="_top">Send Mail</a></li> */}
+              {/* <li><a href="mailto:vgiraldo.veronica@gmail.com" target="_blank">vgiraldo.veronica@gmail.com</a></li> */} 
              {/* <img class="vg" src={vg2} alt="vg"></img> */}
              {/* <li><img class="logo" src={logo} alt="logo"></img></li> */}
              {/* <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li> */}
              {/* <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li> */}
-           </ul>
+           {/* </ul> */}
          </div>
        </div>
-     </div>
+   
      <div class="footer-copyright">
        <div class="container">
        Veronica Giraldo© 
-       {/* <a class="grey-text text-lighten-4 right" href="#!">More Links</a> */}
        </div>
      </div>
    </footer>

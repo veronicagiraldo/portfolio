@@ -6,7 +6,7 @@ import resume from './images/webdev-resume-04-23-19.pdf';
 
 class Resume extends React.Component {
   state = {
-    file: './webdev-resume-04-23-19.pdf',
+    file: {resume},
     numPages: null,
     pageNumber: 1,
   }
@@ -21,7 +21,7 @@ class Resume extends React.Component {
     return (
       <div className="resumeContainer">
         <Document
-          file="./images/webdev-resume-04-23-19.pdf"
+          file={resume}
           onLoadSuccess={this.onDocumentLoadSuccess}
         >
           <Page pageNumber={pageNumber} />

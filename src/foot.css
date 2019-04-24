@@ -7,8 +7,11 @@
   /* background-color:#7B6D24; */
   background-color: #DED675
 }
+p{
+  font-size: 1.5em;
+}
 a{
-  font-size: 3em;
+  font-size: 1.5em;
 }
 .logo{
   height: 100px;
@@ -18,8 +21,12 @@ a{
   height: 50px;
 }
 .fab{
-  font-size: 24px;
+  font-size: 2em;
 }
-/* .container{
-
-} */
+li a:hover {
+  background-color: #DED675;
+}
+li a{
+  color:#616161;
+  /* font-size: 20px; */
+}
