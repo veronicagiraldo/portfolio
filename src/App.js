@@ -7,7 +7,8 @@ import Resume from './Resume';
 import Projects from './Projects';
 import About from './About';
 import Skills from './Skills';
-// import MediaCard from './MediaCard';
+// import Frame from './Frame';
+
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
             <Route path = '/skills' component={Skills}/>
           </Switch> 
           <Foot /> 
+        
       </div>
     );
   }

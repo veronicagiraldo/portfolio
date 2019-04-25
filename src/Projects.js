@@ -1,35 +1,14 @@
 import React from 'react';
-// import Button from '@material-ui/core/Button';
 import veganEats from './images/VeganEats.png';
-// import veganMap from './images/veganEatsMap.png';
-// import veganContact from './images/veganContact.png';
 import triviaHome from './images/triviaHome.png';
-// import triviaQ from './images/triviaQ.png';
-// import triviaAbout from './images/triviaAbout.png';
 import gardenHome from './images/gardenHome.png';
-// import gardenPlay from './images/gardenPlay.png';
-// import gardenSeed from './images/gardenSeed.png';
-// import gardenPlant from './images/gardenPlant.png';
-// import gardenGreen from './images/gardenGreenhouse.png'
-// import { Card} from 'react-materialize';
-// import computer from './images/computer.jpg';
-// import blur from './images/project.jpg';
-
 import './projects.css';
-// import git from './images/GitHub-Mark-64px.png';
 
 function Projects (){
 
     return(
       <div className="projects">
-      <h2 className="responsive-img projectTitle"><i class="responsive-img fas fa-edit"></i>Projects</h2>
-      
-      <div>
-      {/* <img src="https://cdn-images-1.medium.com/max/2400/0*_agRQIzQvukx6TC7"alt="pic" width="800px"/> */}
-     
-      </div>
-     
-      
+      <h2 className="responsive-img projectTitle"><i class="responsive-img fas fa-edit"></i>Projects</h2>   
   <div class="col s12 m7">
     {/* <h3 class="header">Vegan:Eats!</h3> */}
     <div class="card horizontal">
@@ -41,8 +20,6 @@ function Projects (){
           <h3>Vegan:Eats!</h3>
           <p>Created a website for vegetarians and vegans to dine out at local restaurants and grocery stores in downtown Salt Lake City, UT.</p>
           <p>Used React to create the front-end, responsive, and Google Maps is integrated to the application. </p>
-               {/* <button a href="http://veganeats.surge.sh/"target="_blank">click here to view website</button>
-              <button a href="https://github.com/veronicagiraldo/Vegan-Eats" target="_blank">click here to view code on github</button> */}
         </div>
         <div class="card-action">
           <a href="http://veganeats.surge.sh/" target="_blank" rel="noopener noreferrer">Website</a>
