@@ -2,7 +2,7 @@ import React from 'react';
 // import resume from './images/resume2.png'
 import { Document, Page } from 'react-pdf';
 import './resume.css'
-import resume from './images/webdev-resume-04-23-19.pdf';
+import resume from './images/software-veronica-4-24-29.pdf';
 
 class Resume extends React.Component {
   state = {
@@ -28,7 +28,8 @@ class Resume extends React.Component {
             
         </Document>
         {/* <p>Page {pageNumber} of {numPages}</p> */}
-        <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A3c3a72ff-bdab-47a1-b701-c76afa0eb8ad" target="_blank">Download Resume</a>
+        <button><a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A3c3a72ff-bdab-47a1-b701-c76afa0eb8ad" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
+        
       </div>
     );
   }

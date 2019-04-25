@@ -1,8 +1,8 @@
 *{
-  /* font-family: "roboto"; */
+  
   margin: 2px;
-  /* margin: 6px; */
-  /* background-color:#7B6D24; */
+  /* background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
 }
 body, html {
   height: 100%;

@@ -5,7 +5,10 @@
   color:#616161 ;
   
   /* background-color:#7B6D24; */
-  background-color: #DED675
+  /* background-color: #DED675 */
+  /* background: rgb(34,193,195); */
+  /* background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+  background: -webkit-linear-gradient(#ded675, #333);
 }
 p{
   font-size: 1.5em;

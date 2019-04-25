@@ -21,8 +21,8 @@ const Nav = () => {
              <li><Link to="/projects">Projects</Link></li>
              <li><Link to="/about">About Me</Link></li>
              <li><Link to="/resume">Resume</Link></li>
-             <li><a class="right-align" href="https://www.linkedin.com/in/veronicagiraldo/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-             <li><a class="right-align" href="https://github.com/veronicagiraldo" target="_blank"><i class="fab fa-github"></i></a></li>
+             <li><a class="right-align" href="https://www.linkedin.com/in/veronicagiraldo/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+             <li><a class="right-align" href="https://github.com/veronicagiraldo" target="_blank"rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
             </ul>
 
     </Navbar>

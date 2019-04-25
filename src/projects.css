@@ -11,18 +11,34 @@ a {
 }
 .projectTitle{
   position: relative;
+  background-image: url("https://cdn-images-1.medium.com/max/2400/0*_agRQIzQvukx6TC7");
+  
   /* background-image: url('./images/project.jpg'); */
-  /* height: 100vh; */
+  height: 100vh;
   /* background-image: url('https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png'); */
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
+  /* /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   animation: bounceIn 2s ease-in;
-  line-height: 90%;
-  /* margin-top: 10px; */
-  /* color: white; */
+  line-height: 90%; 
+  color: white;
+  text-align: center;
  
+}
+h2 {
+  /* font-size: 3.56rem; */
+  /* line-height: 110%; */
+  margin:0;
+  /* color: #22c1c3; */
+  /* color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+  letter-spacing: 3px;
+  /* font-size: 2em; */
+/*   
+    font-size: 72px;
+    background: -webkit-linear-gradient(#ded675, #333);
+    -webkit-text-fill-color: transparent; */
+
 }
 .row{
   margin-left: 70px;
@@ -32,7 +48,7 @@ a {
  
 }
 .projects{
-  text-align: center;
+  
   /* background-color: #DED675; */
   color: #424242;
   /* padding: 20px; */
