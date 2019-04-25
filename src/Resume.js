@@ -35,7 +35,7 @@ class Resume extends React.Component {
         {/* <iframe src="" style="width:600px; height:500px;" frameborder="0"></iframe> */}
         
         
-        <button><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:832c697d-4209-4562-a013-eaf748fb5e85" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
+        {/* <button><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:832c697d-4209-4562-a013-eaf748fb5e85" target="_blank" rel="noopener noreferrer">Download Resume</a></button> */}
         <button><a href="https://drive.google.com/file/d/1sMzmmk3Z9xLveEaBSrGqUtMXAGq_dBqk/view" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
         
       </div>
