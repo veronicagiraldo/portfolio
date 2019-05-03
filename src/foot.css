@@ -1,4 +1,8 @@
 .page-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding-top: 20px;
   /* color:#e0e0e0; */
@@ -23,13 +27,26 @@ a{
 .vg{
   height: 50px;
 }
-.fab{
+.fab .fa{
   font-size: 2em;
 }
-li a:hover {
+/* li a:hover {
   background-color: #DED675;
-}
+} */
 li a{
   color:#616161;
   /* font-size: 20px; */
+}
+/* .fa-envelope:before {
+  content: "\f0e0";
+  font-size: 40px;
+  color:#616161;
+} */
+/* .container{
+  display: flex;
+  justify-self: center;
+} */
+.footer-copyright{
+  display: flex;
+  justify-self: center;
 }

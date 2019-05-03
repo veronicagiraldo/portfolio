@@ -13,7 +13,7 @@ const Home =() => {
     <div className="homeContainer">
     <h1 className="name">Veronica Giraldo</h1>
     <h3 className="nameFull">Software Engineer</h3>
-    <Link className="linkProjects"to="/projects" ><i class="fas fa-sign-in-alt"></i></Link>
+    <Link className="linkProjects"to="/30day" ><i class="fas fa-sign-in-alt"></i></Link>
    
     </div>
  

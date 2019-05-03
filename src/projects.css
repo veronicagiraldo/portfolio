@@ -136,3 +136,6 @@ margin-bottom: 43px;
   /* animation: bounceIn 2s ease-in; */
   transform: rotate(360deg)
 }
+.card-image hide-on-small-only{
+
+}

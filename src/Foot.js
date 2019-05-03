@@ -33,7 +33,8 @@ const Foot = () => {
              <li><img class="vg" src={vg2} alt="vg"></img></li>
              <li><p>801.634.9893</p></li>
              <li><p>Salt Lake City, UT</p></li>
-             <li><a href="mailto:vgiraldo.veronica@gmail.com" target="_blank" rel="noopener noreferrer">vgiraldo.veronica@gmail.com</a></li>
+             <li><a class="grey-text darken-2" href="mailto:vgiraldo.veronica@gmail.com" target="_blank" rel="noopener noreferrer"><i class="far fa-envelope"></i></a></li>
+             {/* <li><a href="mailto:vgiraldo.veronica@gmail.com" target="_blank" rel="noopener noreferrer"><i class="far fa-envelope"></i></a></li> */}
              {/* <li><a href="veronicagiraldoportfolio.com" target="_blank" rel="noopener noreferrer">my website</a></li> */}
              <li><a class="grey-text darken-2" href="https://www.linkedin.com/in/veronicagiraldo/"target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
              <li><a class="grey-text darken-2" href="https://github.com/veronicagiraldo" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
@@ -57,7 +58,7 @@ const Foot = () => {
    
      <div class="footer-copyright">
        <div class="container">
-       Veronica Giraldo© 
+       Veronica Giraldo © 
        </div>
      </div>
    </footer>
