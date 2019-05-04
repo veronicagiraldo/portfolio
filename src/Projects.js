@@ -8,7 +8,7 @@ function Projects (){
 
     return(
       <div className="projects">
-      <h2 className="responsive-img projectTitle hide-on-small-only"><i class="responsive-img fas fa-edit"></i>Projects</h2>   
+      <h2 className="projectTitle hide-on-small-only"><i class="responsive-img fas fa-edit"></i>Projects</h2>   
   <div class="col s12 m7">
     {/* <h3 class="header">Vegan:Eats!</h3> */}
     <div class="card horizontal">
