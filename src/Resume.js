@@ -48,17 +48,17 @@ class Resume extends React.Component{
     return(
       <div className="resumeContainer">
  
-      <img className="responsive-img"src={resume} alt="resume"/>
-     
+      <img className="responsive-img center"src={resume} alt="resume"/>
+     <div>
        {/* <p>Click on link to view/download resume</p> */}
-       {/* <button><a href="https://drive.google.com/file/d/1sMzmmk3Z9xLveEaBSrGqUtMXAGq_dBqk/view" target="_blank" rel="noopener noreferrer">View/Download Resume</a></button> */}
+        <a href="https://drive.google.com/file/d/1sMzmmk3Z9xLveEaBSrGqUtMXAGq_dBqk/view" target="_blank" rel="noopener noreferrer">View/Download Resume</a>
         {/* <Document file="webdev-resume-04-23-19.pdf" target="_blank"/>
       
         <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A3c3a72ff-bdab-47a1-b701-c76afa0eb8ad">Download Resume</a> */}
         
         
      
-
+        </div>
 
       </div>
     )
